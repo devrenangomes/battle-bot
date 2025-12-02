@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Apresentação de Slides</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="slider-container">
+        <!-- Slides will be dynamically inserted here or hardcoded -->
+        <div class="slide active" style="background-color: #3498db;">
+            <h1>Slide 1</h1>
+            <p>Bem-vindo à apresentação.</p>
+        </div>
+        <div class="slide" style="background-color: #e74c3c;">
+            <h1>Slide 2</h1>
+            <p>Este é o segundo slide.</p>
+        </div>
+        <div class="slide" style="background-color: #2ecc71;">
+            <h1>Slide 3</h1>
+            <p>E este é o terceiro.</p>
+        </div>
+        
+        <button class="prev-btn" onclick="changeSlide(-1)">&#10094;</button>
+        <button class="next-btn" onclick="changeSlide(1)">&#10095;</button>
+    </div>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
